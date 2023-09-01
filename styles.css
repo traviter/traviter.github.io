@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.resume {
+    padding: 0px 0px;
+    margin: auto;
+    background: repeating-linear-gradient(135deg, rgba(227, 244, 251, .5), rgba(167, 218, 239, .5) .1%),
+        repeating-linear-gradient(45deg, rgba(227, 244, 251, .5), rgba(167, 218, 239, .5) .1%);
+    border: solid #666;
+    border-width: 2px;
+    box-shadow: 10px 5px 5px #666;
+    width: 816px;
+    height: 1056;
+    overflow: none;
+}
+
+.resume-heading {
+    clear: both;
+    width: 500px;
+    border: solid #666;
+    border-width: 0px;
+    background-color: #0e45d0;
+    color: #eee;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 10px 5px 5px #666;
+    display: inline-block;
+    border-radius: 0px 30px 30px 0px;
+    padding: 0px 20px;
+    margin: -1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume-body {
+    margin: 20px 40px;
+    font-size: 16px;
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EDDB1F;
+}
+
+.job-title {
+    float: left;
+    line-height: 5px;
+}
+
+.job-title h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.job-title h4 {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 10px;
+    color: #EDDB1F
+}
+
+.contact {
+    margin-block-start: 10px;
+    float: right;
+    text-align: left;
+}
+
+.contact li {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.contact-icon {
+    margin-right: 5px;
+}
+
+.expertise-block {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.card p {
+    display: block;
+    color: #444;
+    border-color: #444;
+    border-width: 5px;
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+.card {
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 10px 5px 5px #666;
+    font-size: 13px;
+    background-color: rgba(220, 220, 255, .25);
+}
+
+.orm-specialist,
+.force-multiplier {
+    float: left;
+    width: 355px;
+}
+
+.education {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.force-multiplier {
+    margin-left: 20px;
+}
+
+.card-icon {
+    display: inline-block;
+    font-size: 28px;
+    padding-right: 20px;
+    vertical-align: bottom;
+    color: #EDDB1F;
+}
+
+.card-header {
+    border-radius: 15px 15px 0px 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 0px;
+    padding: 5px 20px;
+    height: 35px;
+}
+
+.card-header h4 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #eee;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ehr-design .card-header {
+    background-color: #D17624;
+}
+
+.force-multiplier .card-header {
+    background-color: #04AAD1;
+}
+
+.orm-specialist .card-header {
+    background-color: #4719D1;
+}
+
+.education .card-header {
+    background-color: #0e45d0;
+}
+
+
+h3 {
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: #4719D1;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.previous-experience li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.previous-experience i:not(.fa-calendar-days) {
+    padding-left: 10px;
+}
+
+.fa-circle-plus {
+    color: green;
+}
+
+.side-projects {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.side-projects li {
+    list-style-type: none;
+}
+
+.side-projects i {
+    padding-left: 20px;
+}
+
+
+@media print {
+
+    body,
+    h1,
+    a,
+    h3,
+    .card-header h4,
+    .job-title h4,
+    .card-icon,
+    .fa-circle-plus {
+        color: black;
+    }
+
+    .card,
+    .resume,
+    .resume-heading {
+        box-shadow: 0px 0px 0px white;
+    }
+}
