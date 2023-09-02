@@ -197,6 +197,11 @@ h3 {
     padding-left: 20px;
 }
 
+.uofa {
+    float:left;
+    margin-right:5px;
+}
+
 
 @media print {
 
