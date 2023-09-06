@@ -6,11 +6,10 @@ body {
 .resume {
     padding: 0px 0px;
     margin: auto;
-    background: repeating-linear-gradient(135deg, rgba(227, 244, 251, .5), rgba(167, 218, 239, .5) .1%),
-        repeating-linear-gradient(45deg, rgba(227, 244, 251, .5), rgba(167, 218, 239, .5) .1%);
+    background-color: rgba(167, 218, 239, .5);
     border: solid #666;
     border-width: 2px;
-    box-shadow: 10px 5px 5px #666;
+
     width: 816px;
     height: 1056px;
     overflow: none;
@@ -25,7 +24,7 @@ body {
     color: #eee;
     border-color: black;
     border-width: 1px;
-    box-shadow: 10px 5px 5px #666;
+
     display: inline-block;
     border-radius: 0px 30px 30px 0px;
     padding: 0px 20px;
@@ -101,7 +100,7 @@ a h3:hover {
     border-width: 1px;
     border-radius: 15px;
     border-style: solid;
-    box-shadow: 10px 5px 5px #666;
+
     font-size: 13px;
     background-color: rgba(220, 220, 255, .25);
 }
