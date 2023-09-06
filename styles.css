@@ -12,7 +12,7 @@ body {
     border-width: 2px;
     box-shadow: 10px 5px 5px #666;
     width: 816px;
-    height: 1056;
+    height: 1056px;
     overflow: none;
 }
 
@@ -38,13 +38,15 @@ body {
     font-size: 16px;
 }
 
+
 a {
-    color: #ddd;
     text-decoration: none;
+    color: inherit;
 }
 
-a:hover {
-    color: #EDDB1F;
+a:hover,
+a h3:hover {
+    color: #D17624;
 }
 
 .job-title {
@@ -71,7 +73,9 @@ a:hover {
 
 .contact li {
     list-style-type: none;
-    line-height: 25px;
+    line-height: 17px;
+    font-size: 15px;
+    color: #eee;
 }
 
 .contact-icon {
@@ -198,8 +202,8 @@ h3 {
 }
 
 .uofa {
-    float:left;
-    margin-right:5px;
+    float: left;
+    margin-right: 5px;
 }
 
 
@@ -220,5 +224,10 @@ h3 {
     .resume,
     .resume-heading {
         box-shadow: 0px 0px 0px white;
+    }
+
+    .resume {
+        border-style: none;
+        background: none;
     }
 }
