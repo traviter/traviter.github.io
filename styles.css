@@ -206,6 +206,26 @@ h3 {
     margin-right: 5px;
 }
 
+.download,
+.print {
+    background-color: #FFFFFF44;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    fill-opacity: .5;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.download:hover,
+.print:hover {
+    color: #D17624;
+    background-color: #D1762444;
+}
 
 @media print {
 
@@ -229,5 +249,10 @@ h3 {
     .resume {
         border-style: none;
         background: none;
+    }
+
+    .download,
+    .print {
+        visibility: hidden;
     }
 }
