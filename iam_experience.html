@@ -26,9 +26,6 @@
                             class="contact-icon fa-brands fa-linkedin-in"></i>linkedin.com/in/traviter/</a></li>
             </ul>
         </div>
-        <i title="Download PDF" onclick='window.open("travis_carlson_resume.pdf"); return false;'
-            class="download fa-solid fa-file-pdf"></i>
-        <i title="Print" onclick='window.print();return false;' class="print fa-solid fa-print"></i>
         <br />
         <div class="resume-body">
             <div class="primary-expertise">
@@ -39,54 +36,53 @@
                 <div class='expertise-block'>
                     <div class="card ehr-design">
                         <div class="card-header">
-                            <h4><i class="card-icon fa-solid fa-hand-holding-medical"></i>EMR Design and Maintenance
+                            <h4><i class="card-icon fa-solid fa-hand-holding-medical"></i>EMR Application Security
                             </h4>
                         </div>
-                        <p>Significant contributions included designing a converter library for minimal transfer of
-                            data
-                            between
-                            client and server, implementing client-side routing for
-                            cross-modular compatibility, and optimizing the clinical documentation user experience
-                            by
-                            prioritizing and batching asynchronous service calls. Eventually became the go-to expert
-                            for
-                            Physician Portal infrastructure.</p>
-                        <p><b>Technologies:</b> Eclipse, Java GWT (GXT), JSNI, REST, JSON, Javascript, JQuery, CSS,
-                            Freemarker, Keycloak OAuth, Web Sockets</p>
+                        <p>
+                            Developed OAuth2 PKCE authentication within GWT to connect with our Keycloak authentication
+                            server. Automated token refreshes and logout procedures in compliance with HIPAA security
+                            standards. Improved the efficiency of application token introspection by implementing
+                            caching and local verification.</p>
+                        <p><b>Technologies:</b> Keycloak, OAuth2, PKCE, JWT, Eclipse, Java GWT (GXT), JSNI, REST, JSON,
+                            Javascript,
+                            JQuery, CSS,
+                            Freemarker, Web Sockets</p>
                     </div>
                 </div>
                 <div class='expertise-block'>
                     <div class="card orm-specialist">
                         <div class="card-header">
-                            <h4><i class="card-icon fa-solid fa-database"></i>ORM Specialist
+                            <h4><i class="card-icon fa-solid fa-user-lock"></i>Access Management Design
                             </h4>
                         </div>
-                        <p>ONC requirements necessitated a complete redesign of the Care Plans schema. This involved
-                            updated
-                            entity mappings, table design, and data conversion in rerunnable versioned
-                            deployments.
-                            These changes paved the way for ORM enhancements in other domains such as patient
-                            scheduling, questionnaire ingestion, and preferencing.
+                        <p>
+                            Created a hierarchical schema for roles, actions, and preferences applicable to all users
+                            within our system,
+                            including physicians, patients, and front desk staff. This framework
+                            enabled secure access control for multiple end-user applications and provided granular
+                            permissions for various user interfaces and API endpoints.
                         </p>
-                        <p><b>Technologies:</b> Spring JPA (Hibernate ORM), SQL (Oracle) Queries/Views, DDL, Stored
-                            Procedures, Spring Security, Spring AOP, Dependency Injection, Kafka
+                        <p><b>Technologies:</b> Spring Security, Kafka, Spring JPA (Hibernate ORM), SQL (Oracle)
+                            Queries/Views,
+                            DDL, Stored
+                            Procedures, Spring AOP, Dependency Injection
                         </p>
                     </div>
                     <div class="card force-multiplier">
                         <div class="card-header">
-                            <h4><i class="card-icon fa-solid fa-people-group"></i>Force Multiplier</h4>
+                            <h4><i class="card-icon fa-solid fa-headset"></i>QA and Customer Support</h4>
                         </div>
-                        <p>Cultivated a strong cross-disciplinary rapport with developers, DBAs, and QA to
-                            continuously
-                            improve product functionality and performance. Whenever critical
-                            customer issues arose, communicated directly with the implementation team to
-                            swiftly deploy hotfixes and patches. Consistently prioritized the productivity of all
-                            team
-                            members.
+                        <p>
+                            Collaborated extensively with the QA team to customize the application and Keycloak servers,
+                            addressing a range of edge case test scenarios. This included handling token and password
+                            expirations, managing multiple simultaneous logins, and ensuring smooth error recovery.
+                            Provided prompt assistance to customers for account setup and
+                            recovery operations.
                         </p>
-                        <p><b>Technologies:</b> JIRA (Confluence),
+                        <p><b>Technologies:</b> Microsoft Teams, JIRA (Confluence), Active Directory,
                             UML, Balsalmiq,
-                            Microsoft Teams, JUnit, Log4j, Bash, Git, Maven, Jenkins, Tomcat</p>
+                            JUnit, Log4j, Bash, Git, Maven, Jenkins, Tomcat</p>
                     </div>
 
                 </div>
